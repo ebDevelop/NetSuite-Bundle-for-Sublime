@@ -1,8 +1,193 @@
 [{
-		"name": "Back",
-		"internalid": ""
-	}, {
-		"name": "Items",
-		"item": "item"
-	}
-]
+    "name": "Back",
+    "internalid": "",
+    "location": "Return to the Main Menu"
+}, {
+    "name": "Contact Roles",
+    "internalid": "directdeposit",
+    "location": "Employee Record > ACH/Direct Deposit subtab"
+}, {
+    "name": "Accrued Time",
+    "internalid": "accruedtime",
+    "location": "Employee Record > Payroll subtab"
+}, {
+    "name": "Address",
+    "internalid": "addressbook",
+    "location": "Contact, Customer, Partner, Vendor and Employee Records"
+}, {
+    "name": "Adjustments",
+    "internalid": "inventory",
+    "location": "Inventory Adjustment Record"
+}, {
+    "name": "Apply",
+    "internalid": "apply",
+    "location": "Credit Memo, Customer Payment, Customer Refund, Deposit Application, Vendor Credit and Vendor Payment Records"
+}, {
+    "name": "Assignees",
+    "internalid": "assignee",
+    "location": "Project Task Record"
+}, {
+    "name": "Attendees",
+    "internalid": "attendee",
+    "location": "Event Record"
+}, {
+    "name": "Billable Expenses",
+    "internalid": "expcost",
+    "location": "Cash Sale and Invoice Records"
+}, {
+    "name": "Billable Items",
+    "internalid": "itemcost",
+    "location": "Cash Sale and Invoice Records"
+}, {
+    "name": "Billable Time",
+    "internalid": "time",
+    "location": "Cash Sale and Invoice Records"
+}, {
+    "name": "Bin Numbers",
+    "internalid": "binnumber",
+    "location": "Inventory Item Record"
+}, {
+    "name": "Company Contributions",
+    "internalid": "companycontribution",
+    "location": "Paycheck Journal and Employee Records"
+}, {
+    "name": "Company Taxes",
+    "internalid": "companytax",
+    "location": "Paycheck Journal and Employee Records"
+}, {
+    "name": "Paycheck Journal",
+    "internalid": "paycheckjournal",
+    "location": "xxxxx"
+}, {
+    "name": "Competitors",
+    "internalid": "competitors",
+    "location": "Opportunity Record"
+}, {
+    "name": "Credits",
+    "internalid": "credit",
+    "location": "Customer Payment and Vendor Payment Records"
+}, {
+    "name": "Currencies",
+    "internalid": "currency",
+    "location": "Customer, Lead and Prospect Records"
+}, {
+    "name": "Deductions",
+    "internalid": "deduction",
+    "location": "Paycheck Journal and Employee Records"
+}, {
+    "name": "Demand Plan Detail",
+    "internalid": "demandplandetail",
+    "location": "Item Demand Plan Record"
+}, {
+    "name": "Deposits",
+    "internalid": "deposit",
+    "location": "Customer Payment and Customer Refund Records"
+}, {
+    "name": "Direct Mail",
+    "internalid": "campaigndirectmail",
+    "location": "Campaign Record"
+}, {
+    "name": "Download",
+    "internalid": "download",
+    "location": "Customer Record"
+}, {
+    "name": "Earnings",
+    "internalid": "earning",
+    "location": "Paycheck Journal and Employee Record"
+}, {
+    "name": "E-mail",
+    "internalid": "campaignemail",
+    "location": "Campaign Record"
+}, {
+    "name": "Employee Taxes",
+    "internalid": "employeetax",
+    "location": "Paycheck Journal Record"
+}, {
+    "name": "Escalate",
+    "internalid": "escalateto",
+    "location": "Case Record"
+}, {
+    "name": "Expenses",
+    "internalid": "expense",
+    "location": "Check, Vendor Bill, Purchase Order, Item Receipt and Expense Report Records"
+}, {
+    "name": "Group Pricing",
+    "internalid": "grouppricing",
+    "location": "Customer Record"
+}, {
+    "name": "Item",
+    "internalid": "item",
+    "location": "Item Fulfillment, Item Receipt, Cash Refund, Cash Sale, Check, Credit Memo, Estimate/Quote, Invoice, Opportunity, Purchase Order, Return Authorization, Sales Order, Vendor Bill, Work Orders, and Transfer Order Records"
+}, {
+    "name": "Item Pricing",
+    "internalid": "itempricing",
+    "location": "Customer record"
+}, {
+    "name": "Lead Nurturing ",
+    "internalid": "campaigndrip",
+    "location": "Campaign Record"
+}, {
+    "name": "Line",
+    "internalid": "line",
+    "location": "Journal Entry and Intercompany Journal Entry Records"
+}, {
+    "name": "Members",
+    "internalid": "member",
+    "location": "Assembly Item, Lot Numbered Assembly Item, and Kit Item Records"
+}, {
+    "name": "Orders",
+    "internalid": "order",
+    "location": "Item Supply Plan Record"
+}, {
+    "name": "Other Events",
+    "internalid": "campaignevent",
+    "location": "Campaign Record"
+}, {
+    "name": "Partners",
+    "internalid": "partners",
+    "location": "Opportunity, Sales Order, Invoice, Cash Sale, Estimate, Cash Refund, Return Authorization, Credit Memo, Work Order, Lead, Prospect and Customer Records"
+}, {
+    "name": "Pricing",
+    "internalid": "",
+    "location": "Internal unavailalbe. Please refer to the documentation"
+}, {
+    "name": "Predecessors",
+    "internalid": "predecessor",
+    "location": "Project Task Record"
+}, {
+    "name": "Related Solutions",
+    "internalid": "solutions",
+    "location": "Solution Record"
+}, {
+    "name": "Resources",
+    "internalid": "resource",
+    "location": "Event Record"
+}, {
+    "name": "Sales Team",
+    "internalid": "salesteam",
+    "location": "Cash Refund, Cash Sale, Customer, Credit Memo, Estimate/Quote, Invoice, Opportunity, Return Authorization, Sales Order and Work Order"
+}, {
+    "name": "Shipping",
+    "internalid": "shipgroup",
+    "location": "Sales Order, Cash Sale, Invoice, Estimate, and Item Fulfillment Records"
+}, {
+    "name": "Site Category",
+    "internalid": "sitecategory",
+    "location": "Assembly Item, Download Item, Gift Certificate Item, Inventory Part, Kit Item, Lot Numbered Assembly Item, Lot Numbered Inventory Item, Serialized Assembly Item, Serialized Inventory Item and Service Item Records"
+}, {
+    "name": "Time Tracking",
+    "internalid": "timeitem",
+    "location": "Event, Customer, Project (Job), Lead, Phone Call, Prospect, Support Case and Task Records"
+}, {
+    "name": "Topics",
+    "internalid": "topics",
+    "location": "Solution Records"
+}, {
+    "name": "Units",
+    "internalid": "uom",
+    "location": "Unit of Measure (Unit Type) record"
+}, {
+    "name": "Vendors",
+    "internalid": "itemvendor",
+    "location": "Lot Numbered Assembly Item and Serialized Assembly Item Records"
+}]
