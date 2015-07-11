@@ -52,3 +52,4 @@ class NetsuiteCommand(sublime_plugin.TextCommand):
         if id>0:
             #insert snippet
             self.view.run_command("insert_snippet", {"name": "/".join(["Packages", __package__, "Template Files", templates[id]['file']]) })
+            #testing branch!
