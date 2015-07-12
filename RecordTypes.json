@@ -1,7 +1,8 @@
 [{
 		"name": "Back",
 		"internalid": "",
-		"memo": "none"
+		"memo": "none",
+		"action": "showMainMenu"
 	}, {
 		"name": "Assembly Build",
 		"internalid": "assemblybuild",

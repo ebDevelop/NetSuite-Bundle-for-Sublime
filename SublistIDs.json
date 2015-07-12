@@ -1,7 +1,8 @@
 [{
     "name": "Back",
     "internalid": "",
-    "memo": "Return to the Main Menu"
+    "memo": "Return to the Main Menu",
+    "action": "showMainMenu"
 }, {
     "name": "Access Sublist (Contact Roles)",
     "internalid": "contactroles",

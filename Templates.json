@@ -1,7 +1,8 @@
 [{
 		"name": "Back",
 		"memo": "Retuns to the initial Menu",
-		"internalid": "none"
+		"internalid": "none",
+		"action": "showMainMenu"
 	}, {
 		"name": "nlapiSearchRecord",
 		"memo": "Basic script search using the nlapiSearchRecord API",

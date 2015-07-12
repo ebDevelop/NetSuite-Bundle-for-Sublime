@@ -1,0 +1,22 @@
+[{
+	"name": "Record Type IDs",
+	"internalid": "RecordTypes.json",
+	"memo": "type",
+	"defaultAction": "insertInternalId",
+	"showMemo": false,
+	"keyword": "type"
+},{
+	"name": "Sublist IDs",
+	"internalid": "SublistIDs.json",
+	"memo": "sublist",
+	"defaultAction": "insertInternalId",
+	"showMemo": true,
+	"keyword": "sublist"
+},{
+	"name": "SuiteScript Templates",
+	"internalid": "Templates.json",
+	"memo": "none",
+	"defaultAction": "insertSnippet",
+	"showMemo": true,
+	"keyword": "none"
+}]
