@@ -1,14 +1,15 @@
 [{
 		"name": "Back",
-		"description": "Retuns to the initial Menu",
-		"file": "none"
+		"memo": "Retuns to the initial Menu",
+		"internalid": "none",
+		"action": "showMainMenu"
 	}, {
 		"name": "nlapiSearchRecord",
-		"description": "Basic script search using the nlapiSearchRecord API",
-		"file": "Search.sublime-snippet"
+		"memo": "Basic script search using the nlapiSearchRecord API",
+		"internalid": "Search.sublime-snippet"
 	}, {
 		"name": "nlapiLookupField",
-		"description": "Retrive multiple field values using the nlapiLookupField API",
-		"file": "LookupFields.sublime-snippet"
+		"memo": "Retrive multiple field values using the nlapiLookupField API",
+		"internalid": "LookupFields.sublime-snippet"
 	}
 ]

@@ -1,0 +1,194 @@
+[{
+    "name": "Back",
+    "internalid": "",
+    "memo": "Return to the Main Menu",
+    "action": "showMainMenu"
+}, {
+    "name": "Access Sublist (Contact Roles)",
+    "internalid": "contactroles",
+    "memo": "Partner, Prospect, Lead, Customer"
+}, {
+    "name": "Accounts",
+    "internalid": "directdeposit",
+    "memo": "Employee Record > ACH/Direct Deposit subtab"
+}, {
+    "name": "Accrued Time",
+    "internalid": "accruedtime",
+    "memo": "Employee Record > Payroll subtab"
+}, {
+    "name": "Address",
+    "internalid": "addressbook",
+    "memo": "Contact, Customer, Partner, Vendor and Employee Records"
+}, {
+    "name": "Adjustments",
+    "internalid": "inventory",
+    "memo": "Inventory Adjustment Record"
+}, {
+    "name": "Apply",
+    "internalid": "apply",
+    "memo": "Credit Memo, Customer Payment, Customer Refund, Deposit Application, Vendor Credit and Vendor Payment Records"
+}, {
+    "name": "Assignees",
+    "internalid": "assignee",
+    "memo": "Project Task Record"
+}, {
+    "name": "Attendees",
+    "internalid": "attendee",
+    "memo": "Event Record"
+}, {
+    "name": "Billable Expenses",
+    "internalid": "expcost",
+    "memo": "Cash Sale and Invoice Records"
+}, {
+    "name": "Billable Items",
+    "internalid": "itemcost",
+    "memo": "Cash Sale and Invoice Records"
+}, {
+    "name": "Billable Time",
+    "internalid": "time",
+    "memo": "Cash Sale and Invoice Records"
+}, {
+    "name": "Bin Numbers",
+    "internalid": "binnumber",
+    "memo": "Inventory Item Record"
+}, {
+    "name": "Company Contributions",
+    "internalid": "companycontribution",
+    "memo": "Paycheck Journal and Employee Records"
+}, {
+    "name": "Company Taxes",
+    "internalid": "companytax",
+    "memo": "Paycheck Journal and Employee Records"
+},  {
+    "name": "Competitors",
+    "internalid": "competitors",
+    "memo": "Opportunity Record"
+}, {
+    "name": "Credits",
+    "internalid": "credit",
+    "memo": "Customer Payment and Vendor Payment Records"
+}, {
+    "name": "Currencies",
+    "internalid": "currency",
+    "memo": "Customer, Lead and Prospect Records"
+}, {
+    "name": "Deductions",
+    "internalid": "deduction",
+    "memo": "Paycheck Journal and Employee Records"
+}, {
+    "name": "Demand Plan Detail",
+    "internalid": "demandplandetail",
+    "memo": "Item Demand Plan Record"
+}, {
+    "name": "Deposits",
+    "internalid": "deposit",
+    "memo": "Customer Payment and Customer Refund Records"
+}, {
+    "name": "Direct Mail",
+    "internalid": "campaigndirectmail",
+    "memo": "Campaign Record"
+}, {
+    "name": "Download",
+    "internalid": "download",
+    "memo": "Customer Record"
+}, {
+    "name": "Earnings",
+    "internalid": "earning",
+    "memo": "Paycheck Journal and Employee Record"
+}, {
+    "name": "E-mail",
+    "internalid": "campaignemail",
+    "memo": "Campaign Record"
+}, {
+    "name": "Employee Taxes",
+    "internalid": "employeetax",
+    "memo": "Paycheck Journal Record"
+}, {
+    "name": "Escalate",
+    "internalid": "escalateto",
+    "memo": "Case Record"
+}, {
+    "name": "Expenses",
+    "internalid": "expense",
+    "memo": "Check, Vendor Bill, Purchase Order, Item Receipt and Expense Report Records"
+}, {
+    "name": "Group Pricing",
+    "internalid": "grouppricing",
+    "memo": "Customer Record"
+}, {
+    "name": "Item",
+    "internalid": "item",
+    "memo": "Item Fulfillment, Item Receipt, Cash Refund, Cash Sale, Check, Credit Memo, Estimate/Quote, Invoice, Opportunity, Purchase Order, Return Authorization, Sales Order, Vendor Bill, Work Orders, and Transfer Order Records"
+}, {
+    "name": "Item Pricing",
+    "internalid": "itempricing",
+    "memo": "Customer record"
+}, {
+    "name": "Lead Nurturing ",
+    "internalid": "campaigndrip",
+    "memo": "Campaign Record"
+}, {
+    "name": "Line",
+    "internalid": "line",
+    "memo": "Journal Entry and Intercompany Journal Entry Records"
+}, {
+    "name": "Members",
+    "internalid": "member",
+    "memo": "Assembly Item, Lot Numbered Assembly Item, and Kit Item Records"
+}, {
+    "name": "Orders",
+    "internalid": "order",
+    "memo": "Item Supply Plan Record"
+}, {
+    "name": "Other Events",
+    "internalid": "campaignevent",
+    "memo": "Campaign Record"
+}, {
+    "name": "Partners",
+    "internalid": "partners",
+    "memo": "Opportunity, Sales Order, Invoice, Cash Sale, Estimate, Cash Refund, Return Authorization, Credit Memo, Work Order, Lead, Prospect and Customer Records"
+}, {
+    "name": "Pricing",
+    "internalid": "",
+    "memo": "Internal unavailalbe. Please refer to the documentation"
+}, {
+    "name": "Predecessors",
+    "internalid": "predecessor",
+    "memo": "Project Task Record"
+}, {
+    "name": "Related Solutions",
+    "internalid": "solutions",
+    "memo": "Solution Record"
+}, {
+    "name": "Resources",
+    "internalid": "resource",
+    "memo": "Event Record"
+}, {
+    "name": "Sales Team",
+    "internalid": "salesteam",
+    "memo": "Cash Refund, Cash Sale, Customer, Credit Memo, Estimate/Quote, Invoice, Opportunity, Return Authorization, Sales Order and Work Order"
+}, {
+    "name": "Shipping",
+    "internalid": "shipgroup",
+    "memo": "Sales Order, Cash Sale, Invoice, Estimate, and Item Fulfillment Records"
+}, {
+    "name": "Site Category",
+    "internalid": "sitecategory",
+    "memo": "Assembly Item, Download Item, Gift Certificate Item, Inventory Part, Kit Item, Lot Numbered Assembly Item, Lot Numbered Inventory Item, Serialized Assembly Item, Serialized Inventory Item and Service Item Records"
+}, {
+    "name": "Time Tracking",
+    "internalid": "timeitem",
+    "memo": "Event, Customer, Project (Job), Lead, Phone Call, Prospect, Support Case and Task Records"
+}, {
+    "name": "Topics",
+    "internalid": "topics",
+    "memo": "Solution Records"
+}, {
+    "name": "Units",
+    "internalid": "uom",
+    "memo": "Unit of Measure (Unit Type) record"
+}, {
+    "name": "Vendors",
+    "internalid": "itemvendor",
+    "memo": "Lot Numbered Assembly Item and Serialized Assembly Item Records"
+}]
