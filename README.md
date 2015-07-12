@@ -19,14 +19,7 @@ Features
 - All APIS that start with nlapi
 
 ##### NetSuite Menu (Ctrl + Alt + n):
-- IDs of all Records listed in the Record Browser
-- SuiteScript templates
-
-Ongoing Enhancements
----------
-
-##### NetSuite Menu (Ctrl + Alt + n):
-- Internal IDs of standard buttons
+- Internal IDs of Records listed in the Record Browser
 - Internal IDs of sublists
-- Additional templates
-- Internal IDs of supported file types (nlapiCreateFile argument)
+- Internal IDs of standard buttons
+- SuiteScript templates
