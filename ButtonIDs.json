@@ -1,0 +1,334 @@
+[{
+    "name": "Back",
+    "internalid": "",
+    "memo": "Return to the Main Menu",
+    "action": "showMainMenu"
+}, {
+    "name": "Accept",
+    "internalid": "Accept",
+    "memo": "None"
+}, {
+    "name": "Accept Payment",
+    "internalid": "acceptpayment",
+    "memo": "None"
+}, {
+    "name": "Apply",
+    "internalid": "apply",
+    "memo": "None"
+}, {
+    "name": "Approve",
+    "internalid": "approve",
+    "memo": "None"
+}, {
+    "name": "Approve Return",
+    "internalid": "approvereturn",
+    "memo": "None"
+}, {
+    "name": "Authorize Return",
+    "internalid": "return",
+    "memo": "None"
+}, {
+    "name": "Auto Fill",
+    "internalid": "autofill",
+    "memo": "None"
+}, {
+    "name": "Bill",
+    "internalid": "bill",
+    "memo": "None"
+}, {
+    "name": "Bill Remaining",
+    "internalid": "billremaining",
+    "memo": "None"
+}, {
+    "name": "Cancel Order",
+    "internalid": "cancelorder",
+    "memo": "None"
+}, {
+    "name": "Cancel Return",
+    "internalid": "cancelreturn",
+    "memo": "None"
+}, {
+    "name": "Clear Splits",
+    "internalid": "clearsplits",
+    "memo": "None"
+}, {
+    "name": "Close",
+    "internalid": "closeremaining",
+    "memo": "None"
+}, {
+    "name": "Convert",
+    "internalid": "convertlead",
+    "memo": "None"
+}, {
+    "name": "Convert to Inventory",
+    "internalid": "convertinvt",
+    "memo": "None"
+}, {
+    "name": "Convert to Lot Numbered Inventory",
+    "internalid": "convertlot",
+    "memo": "None"
+}, {
+    "name": "Convert to Serialized Inventory",
+    "internalid": "convertserial",
+    "memo": "None"
+}, {
+    "name": "Create Build",
+    "internalid": "createbuild",
+    "memo": "None"
+}, {
+    "name": "Create Matrix",
+    "internalid": "creatematrix",
+    "memo": "None"
+}, {
+    "name": "Credit",
+    "internalid": "credit",
+    "memo": "None"
+}, {
+    "name": "Decline",
+    "internalid": "decline",
+    "memo": "None"
+}, {
+    "name": "xxx",
+    "internalid": "xxx",
+    "memo": "None"
+}, {
+    "name": "xxx",
+    "internalid": "xxx",
+    "memo": "None"
+}, {
+    "name": "Delete",
+    "internalid": "delete",
+    "memo": "None"
+}, {
+    "name": "Email",
+    "internalid": "email",
+    "memo": "None"
+}, {
+    "name": "Fax",
+    "internalid": "fax",
+    "memo": "None"
+}, {
+    "name": "Fulfill",
+    "internalid": "process",
+    "memo": "None"
+}, {
+    "name": "Generate Price List",
+    "internalid": "generatepricelist",
+    "memo": "None"
+}, {
+    "name": "Generate Statement",
+    "internalid": "generatestatement",
+    "memo": "None"
+}, {
+    "name": "GL Impact",
+    "internalid": "glimpact",
+    "memo": "None"
+}, {
+    "name": "Go To Register",
+    "internalid": "gotoregister",
+    "memo": "None"
+}, {
+    "name": "Grab",
+    "internalid": "grab",
+    "memo": "None"
+}, {
+    "name": "Make Copy",
+    "internalid": "makecopy",
+    "memo": "None"
+}, {
+    "name": "Make Payment",
+    "internalid": "payment",
+    "memo": "None"
+}, {
+    "name": "Make Standalone Copy",
+    "internalid": "makestanda​l​o​n​e​c​o​p​y",
+    "memo": "None"
+}, {
+    "name": "Memorize",
+    "internalid": "memorize",
+    "memo": "None"
+}, {
+    "name": "Merge",
+    "internalid": "merge",
+    "memo": "None"
+}, {
+    "name": "New",
+    "internalid": "new",
+    "memo": "None"
+}, {
+    "name": "New Event Field",
+    "internalid": "neweventfield",
+    "memo": "None"
+}, {
+    "name": "Next Bill",
+    "internalid": "nextbill",
+    "memo": "None"
+}, {
+    "name": "Next Week",
+    "internalid": "next",
+    "memo": "None"
+}, {
+    "name": "xxx",
+    "internalid": "xxx",
+    "memo": "None"
+}, {
+    "name": "Prev Week",
+    "internalid": "prev",
+    "memo": "None"
+}, {
+    "name": "Print",
+    "internalid": "print",
+    "memo": "None"
+}, {
+    "name": "Print Bill of Materials",
+    "internalid": "printbom",
+    "memo": "None"
+}, {
+    "name": "Print Label",
+    "internalid": "printlabel",
+    "memo": "None"
+}, {
+    "name": "Print Labels",
+    "internalid": "printlabels",
+    "memo": "None"
+}, {
+    "name": "Print Picking Ticket",
+    "internalid": "printpicktick",
+    "memo": "None"
+}, {
+    "name": "Print Summary",
+    "internalid": "depositsummary",
+    "memo": "None"
+}, {
+    "name": "Quick Accept",
+    "internalid": "quickaccept",
+    "memo": "None"
+}, {
+    "name": "Recalc",
+    "internalid": "recalc",
+    "memo": "None"
+}, {
+    "name": "Receive",
+    "internalid": "receive",
+    "memo": "None"
+}, {
+    "name": "Refund",
+    "internalid": "refund",
+    "memo": "None"
+}, {
+    "name": "Reject",
+    "internalid": "reject",
+    "memo": "None"
+}, {
+    "name": "Renew",
+    "internalid": "renewal",
+    "memo": "None"
+}, {
+    "name": "Reset",
+    "internalid": "resetter",
+    "memo": "None"
+}, {
+    "name": "Revenue Commitment Reversal",
+    "internalid": "revcomrv",
+    "memo": "None"
+}, {
+    "name": "Save As",
+    "internalid": "submitas",
+    "memo": "None"
+}, {
+    "name": "Save & Bill",
+    "internalid": "submitbill",
+    "memo": "None"
+}, {
+    "name": "Save & Convert",
+    "internalid": "submitconvert",
+    "memo": "None"
+}, {
+    "name": "Save & Copy",
+    "internalid": "submitcopy",
+    "memo": "None"
+}, {
+    "name": "Save & Edit",
+    "internalid": "submitedit",
+    "memo": "None"
+}, {
+    "name": "Save & Email",
+    "internalid": "saveemail",
+    "memo": "None"
+}, {
+    "name": "Save & Fulfill",
+    "internalid": "submitfulfill",
+    "memo": "None"
+}, {
+    "name": "Save & New",
+    "internalid": "submitnew",
+    "memo": "None"
+}, {
+    "name": "Save & Next",
+    "internalid": "submitnext",
+    "memo": "None"
+}, {
+    "name": "Save & Print",
+    "internalid": "saveprint",
+    "memo": "None"
+}, {
+    "name": "Save & Print BOM",
+    "internalid": "saveprintbom",
+    "memo": "None"
+}, {
+    "name": "Save & Print Label",
+    "internalid": "saveandprintlabel",
+    "memo": "None"
+}, {
+    "name": "Save & Refund",
+    "internalid": "submitrefund",
+    "memo": "None"
+}, {
+    "name": "Save & Same",
+    "internalid": "submitsame",
+    "memo": "None"
+}, {
+    "name": "Save Baseline",
+    "internalid": "savebaseline",
+    "memo": "None"
+}, {
+    "name": "Search",
+    "internalid": "search",
+    "memo": "None"
+}, {
+    "name": "Show Activity",
+    "internalid": "showactivity",
+    "memo": "None"
+}, {
+    "name": "Submit Invoice",
+    "internalid": "submitinvoice",
+    "memo": "None"
+}, {
+    "name": "Tentative",
+    "internalid": "tentative",
+    "memo": "None"
+}, {
+    "name": "Unbuild",
+    "internalid": "createunbuild",
+    "memo": "None"
+}, {
+    "name": "Update Matrix",
+    "internalid": "updatematrix",
+    "memo": "None"
+}, {
+    "name": "Update VSOE",
+    "internalid": "updatevsoe",
+    "memo": "None"
+}, {
+    "name": "View All Transactions",
+    "internalid": "viewalltransactions",
+    "memo": "None"
+}, {
+    "name": "Void",
+    "internalid": "void",
+    "memo": "None"
+}, {
+    "name": "W4 Worksheet",
+    "internalid": "w4data",
+    "memo": "None"
+}]

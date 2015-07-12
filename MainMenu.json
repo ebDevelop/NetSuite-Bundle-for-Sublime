@@ -13,6 +13,13 @@
 	"showMemo": true,
 	"keyword": "sublist"
 },{
+	"name": "Button IDs",
+	"internalid": "ButtonIDs.json",
+	"memo": "button",
+	"defaultAction": "insertInternalId",
+	"showMemo": false,
+	"keyword": "button"
+},{
 	"name": "SuiteScript Templates",
 	"internalid": "Templates.json",
 	"memo": "none",
