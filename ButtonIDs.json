@@ -88,14 +88,6 @@
     "internalid": "decline",
     "memo": "None"
 }, {
-    "name": "xxx",
-    "internalid": "xxx",
-    "memo": "None"
-}, {
-    "name": "xxx",
-    "internalid": "xxx",
-    "memo": "None"
-}, {
     "name": "Delete",
     "internalid": "delete",
     "memo": "None"
@@ -166,10 +158,6 @@
 }, {
     "name": "Next Week",
     "internalid": "next",
-    "memo": "None"
-}, {
-    "name": "xxx",
-    "internalid": "xxx",
     "memo": "None"
 }, {
     "name": "Prev Week",

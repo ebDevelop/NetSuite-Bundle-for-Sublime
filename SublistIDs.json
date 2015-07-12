@@ -59,11 +59,7 @@
     "name": "Company Taxes",
     "internalid": "companytax",
     "memo": "Paycheck Journal and Employee Records"
-}, {
-    "name": "Paycheck Journal",
-    "internalid": "paycheckjournal",
-    "memo": "xxxxx"
-}, {
+},  {
     "name": "Competitors",
     "internalid": "competitors",
     "memo": "Opportunity Record"
