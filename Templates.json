@@ -4,24 +4,64 @@
 		"internalid": "none",
 		"action": "showMainMenu"
 	}, {
-		"name": "nlapiSearchRecord",
+		"name": "General: Template: nlapiSearchRecord",
 		"memo": "Basic script search using the nlapiSearchRecord API",
 		"internalid": "Search.sublime-snippet"
 	}, {
-		"name": "nlapiLookupField",
+		"name": "General: Template: nlapiLookupField",
 		"memo": "Retrive multiple field values using the nlapiLookupField API",
 		"internalid": "LookupFields.sublime-snippet"
 	}, {
-		"name": "User Event Script: Before Load Function",
+		"name": "User Event Script: Function: Before Load",
 		"memo": "Empty before load function",
 		"internalid": "UserEventBeforeLoad.sublime-snippet"
 	}, {
-		"name": "User Event Script: Before Submit Function",
+		"name": "User Event Script: Function: Before Submit",
 		"memo": "Empty before submit function",
 		"internalid": "UserEventBeforeSubmit.sublime-snippet"
 	}, {
-		"name": "User Event Script: After Submit Function",
+		"name": "User Event Script: Function: After Submit",
 		"memo": "Empty after submit function",
 		"internalid": "UserEventAfterSubmit.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Page Init",
+		"memo": "Empty page init function",
+		"internalid": "ClientPageInit.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Save Record",
+		"memo": "Empty save record function",
+		"internalid": "ClientPageSaveRecord.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Validate Field",
+		"memo": "Empty validate field function",
+		"internalid": "ClientValidateField.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Field Changed",
+		"memo": "Empty field changed function",
+		"internalid": "ClientFieldChanged.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Post Sourcing",
+		"memo": "Empty post sourcing function",
+		"internalid": "ClientPostSourcing.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Line Init",
+		"memo": "Empty line init function",
+		"internalid": "ClientLineInit.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Validate Line",
+		"memo": "Empty validate line function",
+		"internalid": "ClientValidateLine.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Validate Insert",
+		"memo": "Empty validate insert function",
+		"internalid": "ClientValidateInsert.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Validate Delete",
+		"memo": "Empty validate delete function",
+		"internalid": "ClientValidateDelete.sublime-snippet"
+	}, {
+		"name": "Client Script: Function: Recalc",
+		"memo": "Empty recalc function",
+		"internalid": "ClientRecalc.sublime-snippet"
 	}
 ]

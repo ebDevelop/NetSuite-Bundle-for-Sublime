@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+function validateLine(type) {
+    
+    $0
+
+    //returns true or false
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>

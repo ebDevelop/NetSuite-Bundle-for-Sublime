@@ -24,6 +24,6 @@
 	"internalid": "Templates.json",
 	"memo": "none",
 	"defaultAction": "insertSnippet",
-	"showMemo": true,
+	"showMemo": false,
 	"keyword": "none"
 }]
