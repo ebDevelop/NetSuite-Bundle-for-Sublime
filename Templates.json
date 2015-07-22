@@ -11,5 +11,17 @@
 		"name": "nlapiLookupField",
 		"memo": "Retrive multiple field values using the nlapiLookupField API",
 		"internalid": "LookupFields.sublime-snippet"
+	}, {
+		"name": "User Event Script: Before Load Function",
+		"memo": "Empty before load function",
+		"internalid": "UserEventBeforeLoad.sublime-snippet"
+	}, {
+		"name": "User Event Script: Before Submit Function",
+		"memo": "Empty before submit function",
+		"internalid": "UserEventBeforeSubmit.sublime-snippet"
+	}, {
+		"name": "User Event Script: After Submit Function",
+		"memo": "Empty after submit function",
+		"internalid": "UserEventAfterSubmit.sublime-snippet"
 	}
 ]
