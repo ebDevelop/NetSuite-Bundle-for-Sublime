@@ -4,11 +4,123 @@
 		"internalid": "none",
 		"action": "showMainMenu"
 	}, {
-		"name": "nlapiSearchRecord",
+		"name": "User Event: Before Load",
+		"memo": "Empty before load function",
+		"internalid": "UserEventBeforeLoad.sublime-snippet"
+	}, {
+		"name": "User Event: Before Submit",
+		"memo": "Empty before submit function",
+		"internalid": "UserEventBeforeSubmit.sublime-snippet"
+	}, {
+		"name": "User Event: After Submit",
+		"memo": "Empty after submit function",
+		"internalid": "UserEventAfterSubmit.sublime-snippet"
+	}, {
+		"name": "Client: Page Init",
+		"memo": "Empty page init function",
+		"internalid": "ClientPageInit.sublime-snippet"
+	}, {
+		"name": "Client: Save Record",
+		"memo": "Empty save record function",
+		"internalid": "ClientPageSaveRecord.sublime-snippet"
+	}, {
+		"name": "Client: Validate Field",
+		"memo": "Empty validate field function",
+		"internalid": "ClientValidateField.sublime-snippet"
+	}, {
+		"name": "Client: Field Changed",
+		"memo": "Empty field changed function",
+		"internalid": "ClientFieldChanged.sublime-snippet"
+	}, {
+		"name": "Client: Post Sourcing",
+		"memo": "Empty post sourcing function",
+		"internalid": "ClientPostSourcing.sublime-snippet"
+	}, {
+		"name": "Client: Line Init",
+		"memo": "Empty line init function",
+		"internalid": "ClientLineInit.sublime-snippet"
+	}, {
+		"name": "Client: Validate Line",
+		"memo": "Empty validate line function",
+		"internalid": "ClientValidateLine.sublime-snippet"
+	}, {
+		"name": "Client: Validate Insert",
+		"memo": "Empty validate insert function",
+		"internalid": "ClientValidateInsert.sublime-snippet"
+	}, {
+		"name": "Client: Validate Delete",
+		"memo": "Empty validate delete function",
+		"internalid": "ClientValidateDelete.sublime-snippet"
+	}, {
+		"name": "Client: Recalc",
+		"memo": "Empty recalc function",
+		"internalid": "ClientRecalc.sublime-snippet"
+	}, {
+		"name": "SuiteLet",
+		"memo": "Empty SuiteLet script",
+		"internalid": "SuiteLet.sublime-snippet"
+	}, {
+		"name": "SuiteLet: POST and GET requests",
+		"memo": "SuiteLet script with POST and GET requests",
+		"internalid": "SuiteLetPostGetRequest.sublime-snippet"
+	}, {
+		"name": "Scheduled",
+		"memo": "Empty Scheduled script",
+		"internalid": "Scheduled.sublime-snippet"
+	}, {
+		"name": "Mass Update",
+		"memo": "Empty Mass Update script",
+		"internalid": "MassUpdate.sublime-snippet"
+	}, {
+		"name": "Portlet",
+		"memo": "Empty portlet script",
+		"internalid": "Portlet.sublime-snippet"
+	}, {
+		"name": "Workflow Action",
+		"memo": "Empty workflow action script",
+		"internalid": "WorkflowAction.sublime-snippet"
+	}, {
+		"name": "RESTlet: GET",
+		"memo": "Empty RESTlet GET function",
+		"internalid": "RestletGet.sublime-snippet"
+	}, {
+		"name": "RESTlet: POST",
+		"memo": "Empty RESTlet POST function",
+		"internalid": "RestletPost.sublime-snippet"
+	}, {
+		"name": "RESTlet: DELETE",
+		"memo": "Empty RESTlet DELETE function",
+		"internalid": "RestletDelete.sublime-snippet"
+	}, {
+		"name": "RESTlet: PUT",
+		"memo": "Empty RESTlet PUT function",
+		"internalid": "RestletPut.sublime-snippet"
+	}, {
+		"name": "Bundle Installation: Before Install",
+		"memo": "Empty Before Install function",
+		"internalid": "BundleInstallationBeforeInstall.sublime-snippet"
+	}, {
+		"name": "Bundle Installation: After Install",
+		"memo": "Empty After Install function",
+		"internalid": "BundleInstallationAfterInstall.sublime-snippet"
+	}, {
+		"name": "Bundle Installation: Before Update",
+		"memo": "Empty Before Update function",
+		"internalid": "BundleInstallationBeforeUpdate.sublime-snippet"
+	}, {
+		"name": "Bundle Installation: After Update",
+		"memo": "Empty After Update function",
+		"internalid": "BundleInstallationAfterUpdate.sublime-snippet"
+	}, {
+		"name": "Bundle Installation: Before Uninstall",
+		"memo": "Empty Before Uninstall function",
+		"internalid": "BundleInstallationBeforeUninstall.sublime-snippet"
+	},{
+		"name": "General: nlapiSearchRecord",
 		"memo": "Basic script search using the nlapiSearchRecord API",
 		"internalid": "Search.sublime-snippet"
 	}, {
-		"name": "nlapiLookupField",
+		"name": "General: nlapiLookupField",
 		"memo": "Retrive multiple field values using the nlapiLookupField API",
 		"internalid": "LookupFields.sublime-snippet"
 	}

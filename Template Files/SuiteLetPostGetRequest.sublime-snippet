@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+function suitelet(request, response) {
+
+    if (request.getMethod() == 'GET') {
+
+        $0
+
+    } else {
+
+
+    }
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>

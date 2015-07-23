@@ -1,29 +1,29 @@
 [{
+	"name": "SuiteScript 1.0 Templates",
+	"internalid": "Templates.json",
+	"memo": "none",
+	"defaultAction": "insertSnippet",
+	"showMemo": false,
+	"keyword": "none"
+}, {
 	"name": "Record Type IDs",
 	"internalid": "RecordTypes.json",
 	"memo": "type",
 	"defaultAction": "insertInternalId",
 	"showMemo": false,
 	"keyword": "type"
-},{
+}, {
 	"name": "Sublist IDs",
 	"internalid": "SublistIDs.json",
 	"memo": "sublist",
 	"defaultAction": "insertInternalId",
 	"showMemo": true,
 	"keyword": "sublist"
-},{
+}, {
 	"name": "Button IDs",
 	"internalid": "ButtonIDs.json",
 	"memo": "button",
 	"defaultAction": "insertInternalId",
 	"showMemo": false,
 	"keyword": "button"
-},{
-	"name": "SuiteScript Templates",
-	"internalid": "Templates.json",
-	"memo": "none",
-	"defaultAction": "insertSnippet",
-	"showMemo": true,
-	"keyword": "none"
 }]

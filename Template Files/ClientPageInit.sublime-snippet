@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+function pageInit(type) {
+    $0
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>

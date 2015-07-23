@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+function afterSubmit(type) {
+    $0
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>
