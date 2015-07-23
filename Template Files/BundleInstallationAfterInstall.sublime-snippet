@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+function afterInstall(toVersion) {
+    $0
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>

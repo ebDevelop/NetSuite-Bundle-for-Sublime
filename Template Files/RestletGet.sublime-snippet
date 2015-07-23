@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+function getRestlet(dataIn) {
+
+    $0
+
+    // returns Object
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>

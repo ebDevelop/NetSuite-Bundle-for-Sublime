@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+function portletName(portletObj, column) {
+    $0
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>
