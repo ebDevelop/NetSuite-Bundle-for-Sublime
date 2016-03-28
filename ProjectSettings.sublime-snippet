@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{
+    "account": "${1:account_number}",
+    "email": "${2:email}".
+    "role": "${3:role}",
+    "password": "${4:password}",
+    "url": "${5:https://webservices.netsuite.com}",
+    "folder": "${0:folder_name}"
+}
+]]></content>
+    <scope>none</scope> 
+</snippet>

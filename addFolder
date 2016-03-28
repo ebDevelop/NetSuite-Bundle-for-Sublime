@@ -1,0 +1,27 @@
+<soapenv:Envelope
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/'
+    xmlns:platformCore='urn:core_2015_1.platform.webservices.netsuite.com'
+    xmlns:platformMsgs='urn:messages_2015_1.platform.webservices.netsuite.com'
+    xmlns:docFileCab='urn:filecabinet_2015_1.documents.webservices.netsuite.com'>
+    <soapenv:Header>
+        <passport xsi:type='platformCore:Passport'>
+            <email xsi:type='xsd:string'>%(email)s</email>
+            <password xsi:type='xsd:string'>%(password)s</password>
+            <account xsi:type='xsd:string'>%(account)s</account>
+            <role xsi:type='platformCore:RecordRef' internalId='%(role)s'/>
+        </passport>
+        <applicationInfo xsi:type='platformMsgs:ApplicationInfo'/>
+        <partnerInfo xsi:type='platformMsgs:PartnerInfo'/>
+        <preferences xsi:type='platformMsgs:Preferences'/>
+    </soapenv:Header>
+    <soapenv:Body>
+        <add xsi:type='platformMsgs:AddRequest'>
+            <record xsi:type='docFileCab:Folder'>
+                <name xsi:type='xsd:string'>{folder_name}</name>
+                <parent xsi:type='platformCore:RecordRef' internalId='{parent_folder}'/>
+            </record>
+        </add>
+    </soapenv:Body>
+</soapenv:Envelope>

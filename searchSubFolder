@@ -1,0 +1,34 @@
+<soapenv:Envelope
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/'
+    xmlns:platformCore='urn:core_2015_1.platform.webservices.netsuite.com'
+    xmlns:platformMsgs='urn:messages_2015_1.platform.webservices.netsuite.com'
+    xmlns:docFileCab='urn:filecabinet_2015_1.documents.webservices.netsuite.com'
+    xmlns:platformCommon='urn:common_2015_1.platform.webservices.netsuite.com'>
+    <soapenv:Header>
+        <passport xsi:type='platformCore:Passport'>
+            <email xsi:type='xsd:string'>%(email)s</email>
+            <password xsi:type='xsd:string'>%(password)s</password>
+            <account xsi:type='xsd:string'>%(account)s</account>
+            <role xsi:type='platformCore:RecordRef' internalId='%(role)s'/>
+        </passport>
+        <applicationInfo xsi:type='platformMsgs:ApplicationInfo'/>
+        <partnerInfo xsi:type='platformMsgs:PartnerInfo'/>
+        <searchPreferences xsi:type='platformMsgs:SearchPreferences'/>
+    </soapenv:Header>
+    <soapenv:Body>
+        <search xsi:type='platformMsgs:SearchRequest'>
+            <searchRecord xsi:type='docFileCab:FolderSearch'>
+                <basic xsi:type='platformCommon:FolderSearchBasic'>
+                    <name operator='is' xsi:type='platformCore:SearchStringField'>
+                        <searchValue xsi:type='xsd:string'>{folder_name}</searchValue>
+                    </name>
+                    <parent operator='anyOf' xsi:type='platformCore:SearchMultiSelectField'>
+                        <searchValue xsi:type='platformCore:RecordRef' internalId='{parent_folder}' type='folder'></searchValue>
+                    </parent>
+                </basic>
+            </searchRecord>
+        </search>
+    </soapenv:Body>
+</soapenv:Envelope>

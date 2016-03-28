@@ -1,0 +1,56 @@
+<snippet>
+    <content><![CDATA[
+>>>> File Cabinet Integration
+
+    This feature is currently being tested and is only available for windows.
+
+    The NetSuite Bundle for Sublime allow users to upload files from their local hard drive to the NetSuite File Cabinet. Files are uploaded via web services and web services requests are sent directly from Sublime Text to NetSuite.
+
+>>>> Project Settings File:
+
+    In order to upload files to NetSuite it’s necessary to create a project settings file with the NetSuite account information. 
+
+    The project settings file has to be created in the root folder of the project in the user’s HD. When a file is uploaded to the file cabinet, the NetSuite Bundle for Sublime will look for a matching directory tree in the file cabinet to upload the file. If a matching directory tree is not found, the necessary folders will be created.
+
+    For example, consider that the file “Exportdata.js” is located under the “Scripts” folder and the “ProjectSettings.json” file is located under the “Integrations” folder:
+
+        - Exportdata.js Path: C:/Users/User A/Integrations/Tax Integration/Scripts/Exportdata.js
+
+        - ProjectSettings.json Path: C:/Users/User A/Integrations/ProjectSettings.json
+
+        -  ProjectSettings.json content:
+        {
+            "account": "123456",
+            "email": "wsuser@company.com",
+            "role": "3",
+            "password": "********",
+            "url": "https://webservices.na1.netsuite.com",
+            "folder": "SuiteScripts"
+        }
+
+    When a user uploads this file to the file cabinet, The NetSuite Bundle for Sublime will look for the “Integrations >Tax Integration > Scripts” folders under the “SuiteScripts” folder to upload the “Exportdata.js” file. If it doesn’t find this folder structure, it will create it.
+
+    - Settings:
+
+        •   Password: the password is not required. If the password is blank, a popup window will request the user to enter the password every time a file is uploaded.
+        •   url: the URL needs to be set according to the data center and account type:
+            ­   Production (west coast): https://webservices.netsuite.com
+            ­   Production (east coast): https://webservices.na1.netsuite.com
+            ­   Sandbox: https://webservices.sandbox.netsuite.com
+        •   folder: the file cabinet folder where the project was or will be created.
+
+>>>> How to Create/Open a Project Settings file:
+
+    The “Ctrl+Alt+n > Integration > Project Settings” menu option can be used to open existing Project Settings or create new ones.
+
+    If a Project Settings file exists in the current file directory tree, it will be loaded in a new window.
+    If no Project Settings files are found, a Project File template will open in a new window.
+
+>>>> How to Upload a File:
+
+    The “Ctrl+Alt+n > Integration > Upload File” menu option will try to upload the active file to the file cabinet.
+
+    Success messages are displayed on the Sublime Text status bar and error messages are displayed in new windows.
+]]></content>
+    <scope>none</scope> 
+</snippet>

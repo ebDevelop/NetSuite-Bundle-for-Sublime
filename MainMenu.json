@@ -26,4 +26,11 @@
 	"defaultAction": "insertInternalId",
 	"showMemo": false,
 	"keyword": "button"
+}, {
+	"name": "Integration",
+	"internalid": "Integration.json",
+	"memo": "none",
+	"defaultAction": "none",
+	"showMemo": false,
+	"keyword": "none"
 }]

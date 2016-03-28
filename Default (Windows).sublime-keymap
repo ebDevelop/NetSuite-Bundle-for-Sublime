@@ -1,5 +1,7 @@
-[
-    {
-        "keys": ["ctrl+alt+n"], "command": "netsuite"
-    }
-]
+[{
+    "keys": ["ctrl+alt+u"],
+    "command": "ns_upload_script"
+}, {
+    "keys": ["ctrl+alt+n"],
+    "command": "ns_menu"
+}]

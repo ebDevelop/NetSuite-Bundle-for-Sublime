@@ -1,0 +1,21 @@
+[{
+    "name": "Back",
+    "internalid": "",
+    "memo": "Return to the Main Menu",
+    "action": "showMainMenu"
+}, {
+    "name": "Upload File",
+    "internalid": "",
+    "memo": "none",
+    "action": "uploadFile"
+}, {
+    "name": "Project Settings",
+    "internalid": "",
+    "memo": "none",
+    "action": "openProjectSettingsFile"
+}, {
+    "name": "Integration Help",
+    "internalid": "",
+    "memo": "none",
+    "action": "openIntegrationHelp"
+}]

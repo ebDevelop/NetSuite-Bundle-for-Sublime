@@ -22,7 +22,7 @@ def getMenuItems(optionsArray, includeMemo):
         menuItems = [[item['name']] for item in optionsArray];
     return menuItems
 
-class NetsuiteCommand(sublime_plugin.TextCommand):
+class NsMenuCommand(sublime_plugin.TextCommand):
     # Show Main Menu or depending on the text selected, go directly to the submenu
     def run(self, edit):
         # if the text selected is the same as the submeny keyword, go directly to the submenu
@@ -59,12 +59,19 @@ class NetsuiteCommand(sublime_plugin.TextCommand):
         except:
             pass
         # Execute the menu option action
+        print(action)
         if action=='insertInternalId':
             self.insertInternalId(id, optionsArray)
         if action=='insertSnippet':
             self.insertSnippet(id, optionsArray)
         if action=='showMainMenu':
             self.showMainMenu()
+        if action=='uploadFile':
+            self.uploadFile()
+        if action=='openProjectSettingsFile':
+            self.openProjectSettingsFile()
+        if action=='openIntegrationHelp':
+            self.openIntegrationHelp()
 
     # Menu Actions:
 
@@ -77,3 +84,16 @@ class NetsuiteCommand(sublime_plugin.TextCommand):
 
     def showMainMenu(self):
         self.view.window().show_quick_panel(getMenuItems(mainMenu, False), self.showSubmenu)
+
+    def uploadFile(self):
+        self.view.run_command("ns_upload_script")
+
+    def openProjectSettingsFile(self):
+        self.view.window().run_command("ns_open_project_settings")
+
+    def openIntegrationHelp(self):
+        self.view.window().run_command('new_file')
+        view = self.view.window().active_view()
+        view.run_command("insert_snippet", {"name": "/".join(["Packages", __package__, "Integration Help.sublime-snippet"]) })
+        view.set_name('Integration Help.txt')
+
